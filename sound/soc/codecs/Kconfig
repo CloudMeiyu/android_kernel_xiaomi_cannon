@@ -1291,4 +1291,8 @@ config SND_SOC_CS35L41
 source "sound/soc/codecs/aw87359/Kconfig"
 source "sound/soc/codecs/aw87519/Kconfig"
 
+# Double PA
+config HEADSET_DOUBLE_PA_SUPPORT
+        tristate "Double Analog PA & Headset"
+
 endmenu
